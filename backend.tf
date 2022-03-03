@@ -1,9 +1,7 @@
-# --- root/backend.tf ---
-
 terraform {
   backend "s3" {
-    bucket = "week-24-project-07162021"
-    key    = "remote.tfstate"
+    bucket = "w24-jtf-project"
+    key    = "test/remote.tfstate"
     region = "us-east-1"
   }
 }
